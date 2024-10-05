@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Grenze:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+     *{
+      margin: 0;
+      padding: 0;
+    }
+    
+
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      transition: 0.3s;
+      margin: 15px;
+    }
+    
+    a:hover {
+      opacity: 0.7;
+    }
+    
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #000000;
+    }
+    
+    header {
+      background-color: #daa520;
+      padding: 10px 20px;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .logo {
+      width: 100px;
+    }
+    
+    .navegador {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+    
+    .navegador li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    
+    .site {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 .cor {
+      color: #daa520;
+    }
+    
+    h2 .cor {
+      color: #daa520;
+    }
+
+.foto{
+  width: 300px;
+  height: 300px;
+}
+
+.titulo2{
+  font-family: "Grenze", serif;
+  font-size: 22px;
+  color: #fff;
+}
+
+/*fonte*/
+
+.grenze-regular {
+  font-family: "Grenze", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    .CURIOSIDADES {
+      color: #daa520;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    
+
+    footer {
+      background-color: #daa520;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    
+    .rodape {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    
+    .rodape .logo2 {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+    
+    .rodape ul {
+      list-style: none;
+    }
+    
+    .rodape ul li a {
+      color: white;
+      text-decoration: none;
+    }
+img{
+  margin: 10px;
+}
+
+
+
+.zeus{
+      display: flex;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: justify;
+      flex-wrap: nowrap;
+    }
+    .mito
+    {
+      display: flex;
+      margin:center;
+    }
+     h1{
+      text-align: center;
+      color: #daa520;
+     }
+     @media screen and (max-width: 768px) {
+      table {
+          width: 100%;
+      }
+      th, td {
+          padding: 10px;
+      }
+    
+      .navegador{
+        display: block;
+      }
+
+      .zeus
+      {
+        flex-wrap: wrap;
+      }
+      @media screen and (max-width: 768px) {
+        table {
+            width: 100%;
+        }
+        th, td {
+            padding: 10px;
+        }
+      
+        .navegador{
+          display: block;
+        }
+      }
+    }

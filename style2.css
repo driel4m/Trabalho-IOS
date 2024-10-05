@@ -1,0 +1,49 @@
+.site {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  
+@media (max-width: 800px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navegador {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    width: 80px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .site {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .card div {
+    height: 150px;
+  }
+
+  .rodape {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rodape .logo2 {
+    width: 80px;
+  }
+}

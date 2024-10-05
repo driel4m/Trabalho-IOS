@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Grenze:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  margin: 15px;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #000000;
+}
+
+header {
+  background-color: #daa520;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navegador {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navegador li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  margin: 15px;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #000000;
+}
+
+header {
+  background-color: #daa520;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navegador {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navegador li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h2 .cor {
+  color: #daa520;
+}
+
+/*fonte*/
+
+.grenze-regular {
+  font-family: "Grenze", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titulo2{
+  font-family: "Grenze", serif;
+  font-size: 22px;
+  color: #fff;
+}
+
+
+.site {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.titulo{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #fff;
+}
+
+
+body {
+  font-family: "Grenze", serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+  color: #333;
+}
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+thead {
+  background-color: #daa520;
+  color: white;
+}
+th, td {
+  padding: 12px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+th {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+td {
+  font-size: 16px;
+}
+
+/*rodape*/
+
+footer {
+  background-color: #daa520;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.rodape .logo2 {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.rodape ul {
+  list-style: none;
+}
+
+.rodape ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  table {
+      width: 100%;
+  }
+  th, td {
+      padding: 10px;
+  }
+
+  .navegador{
+    display: block;
+  }
+}
+
+
+
+
+.header{
+  background-color:#3b5a48 ;
+  color: #fff;
+  font-size: 25px;
+
+}
+
+li{
+  text-align: center;
+  list-style-type: none
+}
+.corpo{
+  display: flex;
+ justify-content: center;
+}
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0px;
+ 
+  
+}
+.ingresso {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+margin: 0 auto;
+
+}
+h2 {
+  text-align: center;
+}
+.formulario{
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #daa520;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #daa520;
+}
+
+
+FONTE 
+
+.grenze-regular {
+  
+  font-weight: 400;
+  font-style: normal;
+}
